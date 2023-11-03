@@ -1,0 +1,19 @@
+@media (max-width: 804px){
+    body .container{
+        background-color: yellow;
+        font: 14px;
+    }
+
+    body .container .container-card .card-description-content .card-description .desc-title{
+        font-size: 35px;
+    }
+
+    body .container .container-card .desc-form input, button{
+        font-size: 14px;
+    }
+
+
+}
+
+
+

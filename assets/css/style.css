@@ -1,3 +1,117 @@
 html{
     font-family: 'Roboto', sans-serif;
+    color: var(--Charcoal-Grey);
 }
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Slate-Grey);
+}
+
+.container .container-card{
+    width: 850px;
+    height: auto;
+    background-color: var(--White);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.container .container-card .card-description-content{
+    width: 45%;
+    border-radius: 10px;
+    /* background-color: red; */
+    margin-left: 20px;
+}
+
+.container .container-card .card-description-content .card-description{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.container .container-card .card-description-content .card-description .desc-title{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.container .container-card .card-description-content .card-description .desc-text{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container .container-card .card-description-content .card-description .desc-list li::before{
+    content: "";
+    background: url('../images/icon-list.svg') no-repeat bottom;
+    width: 20px;
+    height: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.desc-form{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+.desc-form label{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.desc-form input{
+    height: 60px;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid var(--Grey);
+}
+
+.desc-form button{
+    width: 100%;
+    height: 60px;
+    background-color: var(--Dark-Slate-Grey);
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.desc-form button:hover{
+    background-color: var(--Tomato);
+    border: 1px solid var(--Tomato);
+}
+
+.container .container-card .card-img{
+    width: 45%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.container .container-card .card-img img{
+    width: 100%;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
