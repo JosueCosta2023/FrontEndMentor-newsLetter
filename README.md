@@ -18,7 +18,7 @@
 
 ##
 ## Nota
-* Realizei este projeto afim de aperfeiçoar a semântica e a resposividade de meus projetos.
+* Realizei este projeto afim de aperfeiçoar a semântica e a responsividade de meus projetos.
 * Estou muito feliz com o resultado, pois consegui superar meus obstáculos.
 
 
