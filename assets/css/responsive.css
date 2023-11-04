@@ -1,14 +1,36 @@
 @media (max-width: 804px){
     body .container{
-        background-color: yellow;
         font: 14px;
+        padding: 10px;
+    }
+
+    body .container .container-card{
+        flex-direction: column-reverse;
+    }
+
+    body .container .container-card .card-description-content{
+        width: 90%;
+    }
+
+    body .container .container-card .card-img{
+        width: 100%;
+    }
+
+    body .container .container-card .card-img img{
+        height: 250px;
+        width: 100%;
     }
 
     body .container .container-card .card-description-content .card-description .desc-title{
         font-size: 35px;
     }
 
-    body .container .container-card .desc-form input, button{
+    body .container .container-card .desc-form input{
+        font-size: 14px;
+       
+    }
+
+    body .container .container-card .desc-form button{
         font-size: 14px;
     }
 
